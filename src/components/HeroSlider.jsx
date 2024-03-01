@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heroslider = () => {
+const HeroSlider = () => {
 	return (
 		<div className="flex justify-center items-center mt-8">
 			<div className="carousel w-1/2 h-96">
