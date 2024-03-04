@@ -1,7 +1,7 @@
 const Arrival = () => {
 	return (
 		<>
-			<div className="card lg:card-side bg-base-100 shadow-xl w-1/2 mt-20 ml-[460px] h-96 border-double border-4 border-pink-500">
+			<div className="card lg:card-side bg-base-100 shadow-xl w-1/2 mt-20 ml-[460px] h-96 border-2 border-pink-500">
 				<figure>
 					<img className="h-96"
 						src="src/assets/games/palworld.jpg"
