@@ -60,7 +60,16 @@ const Navbar = () => {
 							</ul>
 						</li>
 						<li>
-							<a>Library</a>
+							<a>Open World</a>
+						</li>
+						<li>
+							<a>Multiplayer</a>
+						</li>
+						<li>
+							<a>Sci-fi</a>
+						</li>
+						<li>
+							<a>Survival</a>
 						</li>
 					</ul>
 				</div>
