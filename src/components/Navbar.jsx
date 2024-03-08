@@ -32,44 +32,6 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a>Category</a>
-							<ul className="p-2">
-								<li>
-									<a>Acrion</a>
-								</li>
-								<li>
-									<a>Arcade</a>
-								</li>
-								<li>
-									<a>Adventure</a>
-								</li>
-								<li>
-									<a>Roleplaying</a>
-								</li>
-								<li>
-									<a>RPG</a>
-								</li>
-								<li>
-									<a>Racing</a>
-								</li>
-								<li>
-									<a>Strategy</a>
-								</li>
-								<li>
-									<a>TPS</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a>Open World</a>
-						</li>
-						<li>
-							<a>Multiplayer</a>
-						</li>
-						<li>
-							<a>Sci-fi</a>
-						</li>
-						<li>
-							<a>Survival</a>
 						</li>
 					</ul>
 				</div>
