@@ -2,7 +2,7 @@ const Card = () => {
 	return (
 		<>
 			<div>
-				<div className="card w-96 bg-base-100 shadow-xl ml-[350px] mt-20">
+				<div className="card w-96 bg-base-100 shadow-xl ml-[460px] mt-20">
 					<figure>
 						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
 					</figure>
@@ -20,7 +20,7 @@ const Card = () => {
 						</div>
 					</div>
 				</div>
-				<div className="card w-96 bg-base-100 shadow-xl ml-[350px] mt-20">
+				<div className="card w-96 bg-base-100 shadow-xl ml-[460px] mt-20">
 					<figure>
 						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
 					</figure>
