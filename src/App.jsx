@@ -1,8 +1,9 @@
-import { Navbar } from "./components/Navbar";
+npm import { Navbar } from "./components/Navbar";
 import { HeroSlider } from "./components/HeroSlider";
 import { Arrival } from "./components/Arrival";
 import { Focus } from "./components/Focus";
 import { Card } from "./components/Card";
+
 
 const App = () => {
 	return (
@@ -13,6 +14,7 @@ const App = () => {
 			<Arrival />
 			<Focus />
 			<Card />
+			
 		</>
 	);
 };
