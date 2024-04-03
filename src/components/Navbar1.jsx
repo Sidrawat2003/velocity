@@ -1,6 +1,6 @@
-const Navbar = () => {
+const Navbar1 = () => {
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar bg-base-100 ">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div
@@ -84,4 +84,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-export { Navbar };
+export { Navbar1 };
