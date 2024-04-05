@@ -1,5 +1,7 @@
 import {Navbar} from "./components/Navbar" 
 import {HeroSlider} from "./components/HeroSlider" 
+import {Login} from "./components/Login"
+import {SignUp} from "./components/SignUp"
 
  
 const App = () => {
@@ -7,7 +9,13 @@ const App = () => {
     <>
       <Navbar/>
       <div className="divider divider-primary"></div>
-      <HeroSlider />
+      <HeroSlider/>
+      <Login/>
+      <SignUp/>
+      
+     
+    
+      
     </>
   );
 };

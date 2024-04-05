@@ -108,7 +108,8 @@ const Navbar = () => {
 				</ul>
 			</div>
 			<div className="navbar-end">
-				<a className="btn">Login</a>
+
+			<a className="btn" href="src\components\Login.jsx">Log In</a>
 			</div>
 		</div>
 	);
