@@ -1,6 +1,6 @@
-const Navbar = () => {
+const Navbar1 = () => {
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar bg-base-100 ">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div
@@ -32,35 +32,6 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a>Category</a>
-							<ul className="p-2">
-								<li>
-									<a>Acrion</a>
-								</li>
-								<li>
-									<a>Arcade</a>
-								</li>
-								<li>
-									<a>Adventure</a>
-								</li>
-								<li>
-									<a>Roleplaying</a>
-								</li>
-								<li>
-									<a>RPG</a>
-								</li>
-								<li>
-									<a>Racing</a>
-								</li>
-								<li>
-									<a>Strategy</a>
-								</li>
-								<li>
-									<a>TPS</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a>Library</a>
 						</li>
 					</ul>
 				</div>
@@ -114,4 +85,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-export { Navbar };
+export { Navbar1 };
