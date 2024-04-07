@@ -40,16 +40,15 @@ const Card = () => {
 				</div>
 				<div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
 					<figure>
-						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
+						<img src="src/assets/games/creed.png" alt="Shoes" />
 					</figure>
 					<div className="card-body">
 						<h2 className="card-title">
-							Hellblade: Senua's Sacrifice{" "}
+						Assassin's Creed Odyssey{" "}
 						</h2>
 						<p>
-							Set in the Viking age, a broken Celtic warrior
-							embarks on a haunting vision quest into Viking Hell
-							to fight for the soul of her dead lover.{" "}
+						Write your own epic odyssey and become a legendary Spartan hero in Assassin’s
+						 Creed Odyssey, an inspiring adventure where you must forge your destiny.{" "}
 						</p>
 						<div className="card-actions justify-end">
 							<button className="btn btn-primary">Buy Now</button>
@@ -61,16 +60,16 @@ const Card = () => {
 			<div className="flex items-center ">
 				<div className="card w-96 bg-base-100 shadow-xl ml-[300px] mt-20">
 					<figure>
-						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
+						<img src="src/assets/games/far.jpg" alt="Shoes" />
 					</figure>
 					<div className="card-body">
 						<h2 className="card-title">
-							Hellblade: Senua's Sacrifice{" "}
+							Far Cry 5{" "}
 						</h2>
 						<p>
-							Set in the Viking age, a broken Celtic warrior
-							embarks on a haunting vision quest into Viking Hell
-							to fight for the soul of her dead lover.{" "}
+						Montana, land of the free and the brave, but also home to a fanatical doomsday
+						 cult—known as The Project at Eden’s Gate that is
+						  threatening the community's freedom. .{" "}
 						</p>
 						<div className="card-actions justify-end">
 							<button className="btn btn-primary">Buy Now</button>
@@ -79,16 +78,16 @@ const Card = () => {
 				</div>
 				<div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
 					<figure>
-						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
+						<img src="src/assets/games/elden.jpg" alt="Shoes" />
 					</figure>
 					<div className="card-body">
 						<h2 className="card-title">
-							Hellblade: Senua's Sacrifice{" "}
+							Elden Rings{" "}
 						</h2>
 						<p>
-							Set in the Viking age, a broken Celtic warrior
-							embarks on a haunting vision quest into Viking Hell
-							to fight for the soul of her dead lover.{" "}
+						Rise and be guided by grace to brandish the power 
+						of the Elden Ring and become an Elden Lord in the Lands Between.
+						A war that meant abandonment by the Greater Will.{" "}
 						</p>
 						<div className="card-actions justify-end">
 							<button className="btn btn-primary">Buy Now</button>
@@ -97,16 +96,16 @@ const Card = () => {
 				</div>
 				<div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
 					<figure>
-						<img src="src/assets/games/hellblade.jpg" alt="Shoes" />
+						<img src="src/assets/games/tekken8.jpg" alt="Shoes" />
 					</figure>
 					<div className="card-body">
 						<h2 className="card-title">
-							Hellblade: Senua's Sacrifice{" "}
+							Tekken 8{" "}
 						</h2>
 						<p>
-							Set in the Viking age, a broken Celtic warrior
-							embarks on a haunting vision quest into Viking Hell
-							to fight for the soul of her dead lover.{" "}
+						TEKKEN 8 continues the tragic saga of the Mishima bloodline 
+						and its world-shaking father-and-son grudge matches.
+					    Showcase every moment of impact and super moves.{" "}
 						</p>
 						<div className="card-actions justify-end">
 							<button className="btn btn-primary">Buy Now</button>
