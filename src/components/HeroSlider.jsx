@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSlider = () => {
 	return (
-		<div className="flex justify-center items-center mt-8">
-			<div className="carousel w-1/2 h-96">
+		<div className="flex justify-center items-center mt-8 bg-[#B0BBBF]">
+			<div className="carousel w-[1000px] h-100">
 				<div id="slide1" className="carousel-item relative w-full">
 					<img
 						src="src/assets/games/cyberpunk1.jpg"
@@ -20,7 +20,7 @@ const HeroSlider = () => {
 				</div>
 				<div id="slide2" className="carousel-item relative w-full">
 					<img
-						src="src/assets/games/GTA.jpg"
+						src="src/assets/games/grand.jpg"
 						className="w-full object-contain "
 					/>
 					<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

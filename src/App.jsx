@@ -3,17 +3,19 @@ import { HeroSlider } from "./components/HeroSlider";
 import { Arrival } from "./components/Arrival";
 import { Focus } from "./components/Focus";
 import { Card } from "./components/Card";
+import { LoginX } from "./components/LoginX";
 
 
 const App = () => {
 	return (
 		<>
 			<Navbar1 />
-			<div className="divider divider-primary"></div>
+			
 			<HeroSlider />
 			<Arrival />
 			<Focus />
 			<Card />
+			<LoginX />
 			
 		</>
 	);
