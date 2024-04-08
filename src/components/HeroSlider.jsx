@@ -1,4 +1,3 @@
-import React from "react";
 
 const HeroSlider = () => {
 	return (
@@ -65,4 +64,4 @@ const HeroSlider = () => {
 	);
 };
 
-export  {HeroSlider};
+export {HeroSlider};

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar1 = () => {
 	return (
 		<div className="navbar bg-base-100 ">
@@ -78,14 +79,7 @@ const Navbar1 = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="card-actions justify-end">
-				<a
-					href="/LoginX"
-					className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
-				>
-					Login
-				</a>
-			</div>
+			<Link to={"/login"}><button>Login</button></Link>
 		</div>
 	);
 };
