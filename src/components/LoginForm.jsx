@@ -1,4 +1,4 @@
-const Login = () => {
+const LoginForm = () => {
     return (
         <>
             <div class="bg-white py-6 sm:py-8 lg:py-12">
@@ -96,4 +96,4 @@ const Login = () => {
     );
 };
 
-export {Login};
+export {LoginForm};

@@ -1,8 +1,7 @@
 import {Navbar} from "./components/Navbar.jsx";
 import Home from "./pages/Home";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {Login} from "./components/Login.jsx";
-
+import Login from "./pages/Login";
 const App = () => {
     return (
         <Router>
