@@ -1,13 +1,13 @@
-import React from 'react'
-import { Card } from '../components/Card'
-import { HeroSlider } from '../components/HeroSlider'
+import {HeroSlider} from "../components/HeroSlider.jsx";
+import {Card} from "../components/Card.jsx";
+
 const Home = () => {
-  return (
-    <>
-    <HeroSlider/>
-    <Card/>
-    </>
-  )
+    return (
+        <>
+            <HeroSlider/>
+            <Card/>
+        </>
+    )
 }
 
 export default Home
