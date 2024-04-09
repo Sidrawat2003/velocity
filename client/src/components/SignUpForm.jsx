@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import {z} from "zod";
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
+import axios from "axios";
 
 const schema = z.object({
     email: z.string().email('Invalid email'),
@@ -16,8 +17,13 @@ const SignUpForm = () => {
         resolver: zodResolver(schema),
     });
 
-    const onSubmit = (data) => {
-        console.log(data);
+    const onSubmit = async (data) => {
+        try {
+            const response = await axios.post('http://localhost:8080/signup', data);
+            console.log(response.data);
+        } catch (error) {
+            console.error(error);
+        }
     }
 
     return (
@@ -82,7 +88,7 @@ const SignUpForm = () => {
 
                             <button
                                 className="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">
-                                Log in
+                                Sign Up
                             </button>
 
                             <div className="relative flex items-center justify-center">
