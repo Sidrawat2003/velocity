@@ -3,7 +3,7 @@ import express, {json, urlencoded} from "express";
 import cors from "cors";
 import authRouter from "./routes/auth.routes.js";
 import cookieParser from "cookie-parser";
-
+import gameRouter from "./routes/game.routes.js"
 const app = express();
 
 const corsOptions = {
@@ -17,6 +17,7 @@ app.use(cookieParser());
 app.use(urlencoded({extended: true}));
 
 app.use("/", authRouter);
+app.use("/", gameRouter);
 
 
 
