@@ -42,7 +42,7 @@ const Navbar = () => {
 					VELOCITY
 				</Link>
 			</div>
-			<div className="navbar-center hidden lg:flex">
+			<div className="navbar-end hidden lg:flex">
 				<ul className="menu menu-horizontal px-1 z-[1]">
 					<li>
 						<Link to={"/"}>Home</Link>

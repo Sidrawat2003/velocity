@@ -1,20 +1,21 @@
 const Mostplayed = () => {
-	return (
-		<div className="card lg:card-side bg-base-100 shadow-xl">
-			<figure>
-				<img
-					src="src/assets/games/cs.jpeg"
-					className="w-1/2"
-				/>
-			</figure>
-			<div className="card-body">
-				<h2 className="card-title">Most played game!</h2>
-				<p>Add Counter Strike Global Offensive 2.</p>
-				<div className="card-actions justify-end">
-					<button className="btn btn-primary">Listen</button>
-				</div>
-			</div>
-		</div>
-	);
+    return (
+        <>
+            <div>
+                <div className="card w-full bg-base-100 shadow-xl image-full">
+                    <figure>
+                        <img src="src/assets/games/cs.jpeg" alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="text-6xl card-title">Most played game!</h2>
+                        <p className="text-5xl">Add Counter Strike Global Offensive 2.</p>
+                        <div className="card-actions justify-center">
+                            <button className="btn w-96 h-24 btn-primary text-3xl">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
 };
-export {Mostplayed};
+export { Mostplayed };

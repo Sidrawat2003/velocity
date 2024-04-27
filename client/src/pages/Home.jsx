@@ -12,7 +12,7 @@ const Home = () => {
             <Arrival/>
             <Focus/>
             <Card/>
-            <Topseller/>
+            {/* <Topseller/> */}
             <Mostplayed/>
         </>
     )

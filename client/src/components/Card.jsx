@@ -1,9 +1,9 @@
 const Card = () => {
     return (
         <>
-            <div className="bg-[#B0BBBF]">
-                <div className="flex items-center">
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[300px] mt-20">
+            <div className="bg-[#B0BBBF] ">
+                <div className="grid grid-cols-3  gap-8 justify-items-center">
+                    <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
                                 src="src/assets/games/senua's.jpg"
@@ -25,7 +25,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
+                    <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
                                 src="src/assets/games/theforest.jpg"
@@ -47,7 +47,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
+                    <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img src="src/assets/games/creed.png" alt="Shoes"/>
                         </figure>
@@ -68,9 +68,8 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="flex items-center ">
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[300px] mt-20">
+                
+                    <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img src="src/assets/games/far.jpg" alt="Shoes"/>
                         </figure>
@@ -89,7 +88,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
+                    <div className="card w-96 bg-base-100 shadow-xl ">
                         <figure>
                             <img src="src/assets/games/elden.jpg" alt="Shoes"/>
                         </figure>
@@ -108,7 +107,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl ml-[50px] mt-20">
+                    <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
                                 src="src/assets/games/tekken8.jpg"
