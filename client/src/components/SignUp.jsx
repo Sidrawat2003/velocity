@@ -9,36 +9,63 @@ const SignUp = () => {
                     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form className="card-body">
                             <div className="form-control">
-                                <label className="label"><span className="label-text">UserName</span>
+                                <label className="label">
+                                    <span className="label-text">UserName</span>
                                 </label>
-                                <input type="input" placeholder="username" className="input input-bordered" required/>
+                                <input
+                                    type="input"
+                                    placeholder="username"
+                                    className="input input-bordered"
+                                    required
+                                />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" placeholder="email" className="input input-bordered" required/>
+                                <input
+                                    type="email"
+                                    placeholder="email"
+                                    className="input input-bordered"
+                                    required
+                                />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" className="input input-bordered"
-                                       required/>
+                                <input
+                                    type="password"
+                                    placeholder="password"
+                                    className="input input-bordered"
+                                    required
+                                />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Confirm Password</span>
+                                    <span className="label-text">
+                                        Confirm Password
+                                    </span>
                                 </label>
-                                <input type="password" placeholder="Confirm password" className="input input-bordered"
-                                       required/>
+                                <input
+                                    type="password"
+                                    placeholder="Confirm password"
+                                    className="input input-bordered"
+                                    required
+                                />
                                 <label className="label">
-                                    <a href="src\components\SignUp.jsx" className="label-text-alt link link-hover">I
-                                        have allready account.Login?</a>
+                                    <a
+                                        href="src\components\SignUp.jsx"
+                                        className="label-text-alt link link-hover"
+                                    >
+                                        I have allready account.Login?
+                                    </a>
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Sign Up</button>
+                                <button className="btn btn-primary">
+                                    Sign Up
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -48,4 +75,4 @@ const SignUp = () => {
     );
 };
 
-export {SignUp};
+export { SignUp };
