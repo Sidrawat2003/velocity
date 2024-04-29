@@ -2,42 +2,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 ">
+        <div className="navbar bg-base-100 flex justify-between items-center p-4">
             <div className="navbar-start">
-                {/* <div className="dropdown">
-                    <div
-                        tabIndex={0}
-                        role="button"
-                        className="btn btn-ghost lg:hidden"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M4 6h16M4 12h8m-8 6h16"
-                            />
-                        </svg>
-                    </div>
-                    <ul
-                        tabIndex={0}
-                        className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-                    >
-                        <li>
-                            <Link to={"/"}>Home</Link>
-                        </li>
-                        <li>
-                            <a>Category</a>
-                        </li>
-                    </ul>
-                </div> */}
-                <Link className="text-xl p-4" to={"/"}>
+                <Link className="text-xl" to={"/"}>
                     VELOCITY
                 </Link>
             </div>
@@ -82,12 +49,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <Link to={"/login"}>
-                <button>Login</button>
-            </Link>
-            <div>
-                {" "}
-                <div className="dropdown mb-72">
+            <div className="flex items-center">
+                <Link to={"/login"}>
+                    <button className="mr-4">Login</button>
+                </Link>
+                <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn m-1">
                         Theme
                         <svg
@@ -147,6 +113,42 @@ const Navbar = () => {
                                 className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
                                 aria-label="Aqua"
                                 value="aqua"
+                            />
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                name="theme-dropdown"
+                                className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                                aria-label="Garden"
+                                value="garden"
+                            />
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                name="theme-dropdown"
+                                className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                                aria-label="Coffee"
+                                value="coffee"
+                            />
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                name="theme-dropdown"
+                                className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                                aria-label="Winter"
+                                value="winter"
+                            />
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                name="theme-dropdown"
+                                className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
+                                aria-label="Sunset"
+                                value="sunset"
                             />
                         </li>
                     </ul>
