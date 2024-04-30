@@ -1,8 +1,8 @@
 const Card = () => {
     return (
         <>
-            <div className="bg-[#B0BBBF] ">
-                <div className="grid grid-cols-3  gap-8 justify-items-center">
+            <div className="bg-[#B0BBBF] m-4 p-4 rounded-lg">
+                <div className=" grid grid-cols-3  gap-8 justify-items-center">
                     <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
@@ -10,7 +10,7 @@ const Card = () => {
                                 alt="Shoes"/>
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">
+                            <h2 className="card-title text-2xl">
                                 Hellblade: Senua's Sacrifice{" "}
                             </h2>
                             <p>
@@ -25,6 +25,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
@@ -33,7 +34,7 @@ const Card = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">The Forest </h2>
+                            <h2 className="card-title text-2xl">The Forest </h2>
                             <p>
                                 The Forest blends exploration, discovery, and
                                 cannibalism in a story-rich survival horror
@@ -47,12 +48,13 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img src="src/assets/games/creed.png" alt="Shoes"/>
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">
+                            <h2 className="card-title text-2xl">
                                 Assassin's Creed Odyssey{" "}
                             </h2>
                             <p>
@@ -74,7 +76,7 @@ const Card = () => {
                             <img src="src/assets/games/far.jpg" alt="Shoes"/>
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Far Cry 5 </h2>
+                            <h2 className="card-title text-2xl">Far Cry 5 </h2>
                             <p>
                                 Montana, land of the free and the brave, but
                                 also home to a fanatical doomsday cult—known as
@@ -88,12 +90,13 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="card w-96 bg-base-100 shadow-xl ">
                         <figure>
                             <img src="src/assets/games/elden.jpg" alt="Shoes"/>
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Elden Rings </h2>
+                            <h2 className="card-title text-2xl">Elden Rings </h2>
                             <p>
                                 Rise and be guided by grace to brandish the
                                 power of the Elden Ring and become an Elden Lord
@@ -107,6 +110,7 @@ const Card = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="card w-96 bg-base-100 shadow-xl  ">
                         <figure>
                             <img
@@ -115,7 +119,7 @@ const Card = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Tekken 8 </h2>
+                            <h2 className="card-title text-2xl">Tekken 8 </h2>
                             <p>
                                 TEKKEN 8 continues the tragic saga of the
                                 Mishima bloodline and its world-shaking

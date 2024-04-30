@@ -2,7 +2,7 @@ const Mostplayed = () => {
     return (
         <>
             <div>
-                <div className="card w-full bg-base-100 shadow-xl image-full">
+                <div className="card w-full bg-base-100 shadow-xl image-full m-5">
                     <figure>
                         <img src="src/assets/games/cs.jpeg" alt="Shoes" />
                     </figure>

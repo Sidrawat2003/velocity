@@ -1,6 +1,6 @@
 const HeroSlider = () => {
     return (
-        <div className="carousel  w-full max-h-screen-">
+        <div className="carousel m-2  w-full max-h-screen- ">
             <div id="slide1" className="carousel-item relative w-full">
                 <img
                     src="src\assets\games\cyberpunk1.jpg"

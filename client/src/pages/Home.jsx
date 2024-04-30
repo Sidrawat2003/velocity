@@ -4,6 +4,8 @@ import {Arrival} from "../components/Arrival.jsx";
 import {Focus} from "../components/Focus.jsx";
 import {Topseller} from "../components/Topseller.jsx";
 import {Mostplayed} from "../components/Mostplayed.jsx";
+import Footer from "../components/Footer.jsx";
+
 
 
 const Home = () => {
@@ -13,8 +15,9 @@ const Home = () => {
             <Arrival/>
             <Focus/>
             <Card/>
-            {/* <Topseller/> */}
+            <Topseller/>
             <Mostplayed/>
+            <Footer/>
         </>
     )
 }

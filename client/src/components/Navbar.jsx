@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 flex justify-between items-center p-4">
+        <div className="navbar bg-base-100 flex justify-between items-center m-2 p-4">
             <div className="navbar-start">
                 <Link className="text-xl" to={"/"}>
                     VELOCITY
@@ -153,8 +153,9 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> 
         </div>
+        
     );
 };
 export { Navbar };
