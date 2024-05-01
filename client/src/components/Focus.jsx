@@ -3,11 +3,11 @@ const Focus = () => {
         <>
             <div
                 tabIndex={0}
-                className="collapse text-primary-content focus:bg-white focus:text-secondary-content w-1/2 ml-[460px] border-2 border-pink-500 bg-slate-500"
+                className="collapse m-2 text-primary-content focus:bg-white focus:text-gray w-1/2 ml-[460px] border-2 border-pink-500 bg-slate-500"
             >
-                <div className="collapse-title"><h2>Click to know more about 'PALWORLD'</h2></div>
+                <div className="collapse-title m-2 text-2xl"><h2>Click to know more about 'PALWORLD'</h2></div>
                 <div className="collapse-content">
-                    <p> Palworld is an upcoming action-adventure, survival, and monster-taming game created and
+                    <p className="text-xl"> Palworld is an upcoming action-adventure, survival, and monster-taming game created and
                         published by Japanese developer Pocket Pair.</p>
                 </div>
             </div>

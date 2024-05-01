@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 flex justify-between items-center m-2 p-4">
+        <div className="navbar bg-base-100 w-screen  m-0 p-4">
             <div className="navbar-start">
-                <Link className="text-xl" to={"/"}>
+                <Link className="text-3xl" to={"/"}>
                     VELOCITY
                 </Link>
             </div>
-            <div className="navbar-end hidden lg:flex ">
-                <ul className="menu menu-horizontal px-1 z-[1]">
+            <div className="navbar-end hidden lg:flex justify-center items-center">
+                <ul className="menu menu-horizontal text-xl px-1 z-[1]">
                     <li>
                         <Link to={"/"}>Home</Link>
                     </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                         <svg
                             width="12px"
                             height="12px"
-                            className="h-2 w-2 fill-current opacity-60 inline-block"
+                            className="h-2 w-4 fill-current opacity-80 inline-block"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 2048 2048"
                         >
